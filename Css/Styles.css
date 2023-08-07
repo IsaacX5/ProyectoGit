@@ -1,0 +1,14 @@
+
+body{
+    background-color: #00ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.div{
+    background: #383d3b;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 10px;
+}
