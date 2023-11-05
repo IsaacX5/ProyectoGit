@@ -39,6 +39,8 @@ body{
 }
 
 #Contenido{
+    height: max-content;
+    width:  max-content;
     background: #383d3b;
     border-radius: 10px;
     color: aliceblue;
@@ -80,4 +82,63 @@ body{
 .footer p{
     font-size: 12px;
     font-family: math;
+}
+
+@media(max-width:400px){
+    #Contenido{
+        width: 320px;
+        height: max-content;
+        margin: 4px;
+    }
+}
+
+@media(max-width:400px){
+    .header{
+        gap: 9px;
+    }
+}
+
+@media(max-width:400px) {
+    .header img{
+        height: 23px;
+        width: 58px;
+    }
+}
+
+@media(max-width:400px) {
+    #Contenido h1{
+        width: 80%;
+    }
+}
+
+@media(max-width:400px) {
+    #Contenido p{
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width:400px){
+    #Contenido .header p{
+        font-size: 9px;
+    }
+}
+
+@media(max-width:400px){
+    .header a{
+        font-size: 9px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:400px){
+    .footer {
+        height: 30px;
+        gap: 15px;
+    }
+}
+@media(max-width:400px){
+    #Contenido .footer p{
+        font-size: 9px;
+    }
 }
